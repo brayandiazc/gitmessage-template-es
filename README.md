@@ -36,7 +36,7 @@ Este repositorio contiene una plantilla de mensajes Git diseñada para ayudar a 
 - **Formato**: `<tipo>: <asunto>`
 - **Ejemplo**:
 
-```markdown
+```bash
 feat: añadir autenticación de usuario
 ```
 
@@ -46,7 +46,7 @@ feat: añadir autenticación de usuario
 - **Formato**: Usa el modo imperativo (por ejemplo, "Añadir", "Corregir", "Actualizar"). Ajusta el texto a 72 caracteres. Separa los párrafos con una línea en blanco.
 - **Ejemplo**:
 
-```markdown
+```bash
 Corregir problema con el proceso de inicio de sesión de usuario
 actualizando el método de autenticación. El método anterior
 no era compatible con los nuevos requisitos de seguridad.
@@ -61,7 +61,7 @@ sin errores y mejora la seguridad general de la aplicación.
 - **Formato**: Usa palabras clave como `Closes`, `Fixes`, `Refs`, seguido del número del problema.
 - **Ejemplo**:
 
-```markdown
+```bash
 Closes #123
 ```
 
@@ -70,7 +70,7 @@ Closes #123
 - **Propósito**: Instrucciones especiales, pasos de prueba, tareas rake, etc.
 - **Ejemplo**:
 
-```markdown
+```bash
 Nota:
 Instrucciones especiales, pasos de prueba, tareas rake, etc.
 ```
@@ -81,29 +81,29 @@ Instrucciones especiales, pasos de prueba, tareas rake, etc.
 - **Formato**: `Coautor: nombre <usuario@usuarios.noreply.github.com>`
 - **Ejemplo**:
 
-```markdown
+```bash
 Coautor: John Doe <john.doe@example.com>
 ```
 
 ## Ejemplo de Mensaje de Commit
 
-```markdown
+```bash
 feat: añadir autenticación de usuario
 
 Añadir una nueva característica para la autenticación de usuario
 utilizando JWT. Esta característica permite a los usuarios iniciar
 sesión de forma segura y recibir un token para solicitudes posteriores.
 
-- Implementación de autenticación basada en JWT
-- Añadido middleware para proteger rutas
-- Actualizado el modelo de usuario para incluir métodos de autenticación
+- Implementar autenticación basada en JWT
+- Añadir middleware para proteger rutas
+- Actualizar modelo de usuario con métodos de autenticación
 
 Closes #45
 
 Nota:
 
-- Recuerda actualizar las variables de entorno con la clave secreta.
-- Asegúrate de aplicar las migraciones de base de datos.
+- Actualiza las variables de entorno con la clave secreta.
+- Aplica las migraciones de base de datos.
 
 Coautor: Jane Doe <jane.doe@example.com>
 ```

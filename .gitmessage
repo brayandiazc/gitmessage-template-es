@@ -1,44 +1,45 @@
-# Título: ########50 caracteres###################
-# Resume los cambios de manera concisa.
+# Título (máx. 50 caracteres)
+# Resume los cambios de forma concisa en modo imperativo.
 # Formato: <tipo>: <asunto>
-# Ejemplo: fix: corregir problema con el inicio de sesión
+# Ejemplo: fix: corrige error al iniciar sesión
 
-# Cuerpo: Explica *qué* y *por qué* (no *cómo*). ########72 caracteres####
-# Proporciona una descripción detallada de los cambios realizados y su propósito.
+# Cuerpo del mensaje (máx. 72 caracteres por línea)
+# Explica *qué* se cambió y *por qué* (no cómo).
+# Separa los párrafos con una línea en blanco.
+
 # Ejemplo:
 #
-# Corregir problema con el proceso de inicio de sesión
-# actualizando el método de autenticación. El método anterior
-# no era compatible con los nuevos requisitos de seguridad.
+# Corrige problema en el inicio de sesión de usuarios
+# ajustando el flujo de autenticación. El método previo
+# no cumplía con los nuevos requisitos de seguridad.
 #
-# - Los puntos también son válidos
-# - Normalmente se utiliza un guión o asterisco para los puntos
-# - Seguido de un espacio, con líneas en blanco entre ellos
-# - Usando una indentación colgante
+# - Usar viñetas para listar cambios
+# - Prefiere "-" o "*", seguidos de un espacio
+# - Deja una línea en blanco entre grupos de ideas
 
-# Problema de Github #123 (Opcional)
-# Incluye cualquier número de problemas relacionados, por ejemplo:
+# Problema relacionado (opcional)
 # Closes #123
 
-# Nota:
-# Instrucciones especiales, pasos de prueba, tareas rake, etc.
+# Nota especial (opcional)
 # Ejemplo:
-# - Incluir instrucciones para ejecutar pruebas específicas
+# - Ejecutar `rake db:migrate`
+# - Verificar token en variables de entorno
 
-# Al final: Incluye Co-autoreado por todos los contribuyentes.
-# Coautor: nombre <usuario@usuarios.noreply.github.com>
+# Coautoría (opcional)
+# Coautor: Nombre Apellido <correo@ejemplo.com>
 
-# Tipos de títulos recomendados:
+# Tipos de título recomendados:
 # feat: Nueva característica
 # fix: Corrección de errores
 # refactor: Refactorización de código
-# style: Formateo, comas faltantes, etc.; sin cambios en el código
-# docs: Cambios en la documentación
-# test: Añadir o refactorizar pruebas; sin cambios en el código de producción
-# chore: Cambios en el proceso de construcción o herramientas auxiliares y bibliotecas
-# perf: Cambio de código que mejora el rendimiento
-# ci: Cambios en los archivos y scripts de configuración de CI
-# build: Cambios que afectan el sistema de construcción o dependencias externas
-# revert: Revierte un commit anterior
-# wip: Trabajo en progreso; para commits intermedios para mantener los parches razonablemente dimensionados
-# hack: Solución temporal para avanzar; por favor evítalo
+# style: Cambios de formato sin afectar lógica
+# docs: Cambios en documentación
+# test: Añadir o mejorar pruebas
+# chore: Mantenimiento general o tareas auxiliares
+# perf: Mejora de rendimiento
+# ci: Configuración de integración continua
+# build: Cambios en compilación o dependencias
+# revert: Reversión de un commit anterior
+# wip: Trabajo en progreso
+# hack: Solución temporal; evitar si es posible
+
