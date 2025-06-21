@@ -1,45 +1,20 @@
-# Título (máx. 50 caracteres)
-# Resume los cambios de forma concisa en modo imperativo.
-# Formato: <tipo>: <asunto>
+# Título (máx. 50 caracteres): <tipo>: <asunto>
 # Ejemplo: fix: corrige error al iniciar sesión
 
-# Cuerpo del mensaje (máx. 72 caracteres por línea)
-# Explica *qué* se cambió y *por qué* (no cómo).
-# Separa los párrafos con una línea en blanco.
+# Cuerpo: explica qué se hizo y por qué (no cómo).
+# Máx. 72 caracteres por línea. Deja una línea en blanco entre párrafos.
 
-# Ejemplo:
-#
-# Corrige problema en el inicio de sesión de usuarios
-# ajustando el flujo de autenticación. El método previo
-# no cumplía con los nuevos requisitos de seguridad.
-#
-# - Usar viñetas para listar cambios
+# - Usa viñetas para listar cambios
 # - Prefiere "-" o "*", seguidos de un espacio
-# - Deja una línea en blanco entre grupos de ideas
 
-# Problema relacionado (opcional)
+# Referencia (opcional)
 # Closes #123
 
-# Nota especial (opcional)
-# Ejemplo:
+# Notas (opcional)
 # - Ejecutar `rake db:migrate`
-# - Verificar token en variables de entorno
 
 # Coautoría (opcional)
 # Coautor: Nombre Apellido <correo@ejemplo.com>
 
-# Tipos de título recomendados:
-# feat: Nueva característica
-# fix: Corrección de errores
-# refactor: Refactorización de código
-# style: Cambios de formato sin afectar lógica
-# docs: Cambios en documentación
-# test: Añadir o mejorar pruebas
-# chore: Mantenimiento general o tareas auxiliares
-# perf: Mejora de rendimiento
-# ci: Configuración de integración continua
-# build: Cambios en compilación o dependencias
-# revert: Reversión de un commit anterior
-# wip: Trabajo en progreso
-# hack: Solución temporal; evitar si es posible
-
+# Tipos comunes:
+# feat, fix, refactor, style, docs, test, chore, perf, ci, build, revert, wip
